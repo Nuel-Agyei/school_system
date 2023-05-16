@@ -25,3 +25,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('school/index', [SchoolController::class, 'index'])->name('school.index');
 Route::get('school/create', [SchoolController::class, 'create'])->name('school.create');
 Route::post('school/store', [SchoolController::class, 'store'])->name('school.store');
+Route::delete('school/delete',[SchoolController::class, 'delete'] )->name('school.delete');
