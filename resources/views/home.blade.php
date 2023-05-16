@@ -13,8 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    <a class="btn btn-outline-primary" href="{{route('school.create')}}">Register Student</a>
 
-                    {{ __('You are logged in!') }}
                 </div>
             </div>
         </div>
